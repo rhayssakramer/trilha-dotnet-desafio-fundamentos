@@ -1,26 +1,24 @@
 ﻿using AppEstacionamento.Models;
 
-//Encodign para exibir acentuação
+// Coloca o encoding para UTF8 para exibir acentuação
 Console.OutputEncoding = System.Text.Encoding.UTF8;
 
 decimal precoInicial = 0;
 decimal precoHora = 0;
 
-//Entradas Iniciais do Programa
 Console.WriteLine("Sejam bem-vindos(as) ao Park Estacionamento!\n" + "Digite o preço inicial do estacionamento:");
-//Variáveis Iniciais
 precoInicial = Convert.ToDecimal(Console.ReadLine());
 
 Console.WriteLine("Agora digite o preço por hora do estacionamento:");
 precoHora = Convert.ToDecimal(Console.ReadLine());
 
-//Instância de Classe Estacionamento
+// Instancia a classe Estacionamento, já com os valores obtidos anteriormente
 Estacionamento estac = new Estacionamento(precoInicial, precoHora);
 
 string opcao = string.Empty;
 bool exibirMenu = true;
 
-//Realizar Looping
+// Realiza o loop do menu
 while (exibirMenu)
 {
     Console.Clear();
