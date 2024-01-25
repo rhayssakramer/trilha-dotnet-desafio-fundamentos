@@ -9,7 +9,7 @@ Esse foi o meu `Primeiro Projeto na Linguagem de Programação C#`e também o pr
 - [versão 3.0]() **Em andamento** - implementação de melhorias para transformar o projeto em API com implementação de Frontend (React) utilizando o ASP.NET.
 
 ## Resultado do Projeto
-<img width="200" src="https://github.com/rhayssakramer/trilha-dotnet-desafio-fundamentos/blob/main/diagrama_classe_estacionamento.png">
+<img>
 
 ## Planejamento do Projeto
 Para implementação de melhorias da [versão 2.0](https://github.com/rhayssakramer/trilha-dotnet-desafio-fundamentos.git) foi utilizado a plataforma Miro para desenvolver a lógica de programação e o processo de todo o código terminal.  
@@ -50,7 +50,7 @@ Código em terminal com melhorias e novos incrementos foi inserido duas novas cl
 
 - Proposta: Foi preciso construir uma classe chamada "Estacionamento", conforme o diagrama abaixo:
 
-<img width="220" src="">
+<img width="200" src="https://github.com/rhayssakramer/trilha-dotnet-desafio-fundamentos/blob/main/diagrama_classe_estacionamento.png">
 
 #### A classe contém três variáveis, sendo:
 
