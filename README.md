@@ -8,9 +8,6 @@ Esse foi o meu `Primeiro Projeto na Linguagem de Programação C#`e também o pr
 - [versão 2.0](https://github.com/rhayssakramer/trilha-dotnet-desafio-fundamentos.git) código em terminal com melhorias e novos incrementos do desafio de Fundamentos `C#`e `.NET` para apresentação ao Decola Tech 2024.`
 - [versão 3.0]() **Em andamento** - implementação de melhorias para transformar o projeto em API com implementação de Frontend (React) utilizando o ASP.NET.
 
-## Resultado do Projeto
-<img>
-
 ## Planejamento do Projeto
 Para implementação de melhorias da [versão 2.0](https://github.com/rhayssakramer/trilha-dotnet-desafio-fundamentos.git) foi utilizado a plataforma Miro para desenvolver a lógica de programação e o processo de todo o código terminal.  
 [Acesse aqui!](https://miro.com/welcomeonboard/WThoVHduTURrNXRucXd3ckFJZlJXYUpKdXBiSU1vbWptYURRaFVncEREVlJWRWxRQktBQ2h4NlVrSzZnSTFQc3wzNDU4NzY0NTc2Mjc1ODc1MDE4fDI=?share_link_id=85434865934)
