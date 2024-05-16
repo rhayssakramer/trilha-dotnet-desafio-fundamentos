@@ -1,27 +1,14 @@
 # DIO - Trilha .NET - Desafio Fundamentos
 
-Esse foi o meu `Primeiro Projeto na Linguagem de Programação C#`e também o primeito desafio da trilha `.NET` do Decola Tech Avanade 4ª Edição 2024. 
-
-## Versões
+Esse foi o meu `Primeiro Projeto na Linguagem de Programação C#`e também o primeito desafio da trilha `.NET` do Decola Tech Avanade 4ª Edição 2024.  
+  
+## 📶 Versões
 - [versão 1.0](https://github.com/rhayssakramer/trilha-dotnet-desafio-fundamentos.git) código em terminal original do desafio de Fundamentos com `C#` e `.NET` da DIO e Decola Tech 2024, implementado pelo professor Leonardo Buta da DIO, com lacunas para serem preenchidas pelos alunos.  
 - [versão 1.1](https://github.com/rhayssakramer/trilha-dotnet-desafio-fundamentos.git) código em terminal implementado para conclusão do desafio de Fundamentos `C#`e `.NET` da Bootcamp do Decola Tech 2024.
 - [versão 2.0](https://github.com/rhayssakramer/trilha-dotnet-desafio-fundamentos.git) código em terminal com melhorias e novos incrementos do desafio de Fundamentos `C#`e `.NET` para apresentação ao Decola Tech 2024.`
 - [versão 3.0]() **Em andamento** - implementação de melhorias para transformar o projeto em API com implementação de Frontend (React) utilizando o ASP.NET.
-
-## Planejamento do Projeto
-Para implementação de melhorias da [versão 2.0](https://github.com/rhayssakramer/trilha-dotnet-desafio-fundamentos.git) foi utilizado a plataforma Miro para desenvolver a lógica de programação e o processo de todo o código terminal.  
-[Acesse aqui!](https://miro.com/welcomeonboard/WThoVHduTURrNXRucXd3ckFJZlJXYUpKdXBiSU1vbWptYURRaFVncEREVlJWRWxRQktBQ2h4NlVrSzZnSTFQc3wzNDU4NzY0NTc2Mjc1ODc1MDE4fDI=?share_link_id=85434865934)
-
-Para implementação de API da [versão 3.0]() **Em andamento**, está sendo utilizado o Figma para elaboração de telas como base ao Frontend.  
-[Acesse aqui!](https://www.figma.com/file/elOMqzYfEtznfTvrO774mg/Park-Olinda-Estacionamento?type=design&node-id=0%3A1&mode=design&t=zQLnpJSIFGiXoWFM-1)
-
-## Tecnologias Utilizadas
-
-| Linguagens de Programação | Ferramentas e Tecnologias |
-| :-----------------: | :-----------------------: |
-| <img height="40" src="https://github.com/rhayssakramer/rhayssakramer/blob/main/assets/icon/C%23.svg"> <img height="40" src="https://github.com/rhayssakramer/rhayssakramer/blob/main/assets/icon/dotnet.svg"> <img height="40" src="https://github.com/rhayssakramer/rhayssakramer/blob/main/assets/icon/NodeJS-Dark.svg"> | <img height="40" src="https://github.com/rhayssakramer/rhayssakramer/blob/main/assets/icon/VSCode-Dark.svg">
-
-## Atualizações
+  
+## 🔄 Atualizações
 [versão 1.0](https://github.com/rhayssakramer/trilha-dotnet-desafio-fundamentos.git) 
 ```
 Código em terminal original.
@@ -34,20 +21,25 @@ Código em terminal implementado, foi utilizado uma lista para incluir as placas
 ```
 Código em terminal com melhorias e novos incrementos foi inserido duas novas classes que serão os objetos do programa, Cliente e Veiculo com suas propriedades e valores. Na classe Estacionamento fora implementado novos menus e métodos para maior interação com usuário, gerador de código aleatório, buscas de placas e diferentes listas.
 ```
+[versão 3.0]() **Em andamento**  
+  
+## ⚙️ Planejamento do Projeto
+Para implementação de melhorias da [versão 2.0](https://github.com/rhayssakramer/trilha-dotnet-desafio-fundamentos.git) foi utilizado a plataforma Miro para desenvolver a lógica de programação e o processo de todo o código terminal. [Acesse aqui!](https://miro.com/welcomeonboard/WThoVHduTURrNXRucXd3ckFJZlJXYUpKdXBiSU1vbWptYURRaFVncEREVlJWRWxRQktBQ2h4NlVrSzZnSTFQc3wzNDU4NzY0NTc2Mjc1ODc1MDE4fDI=?share_link_id=85434865934)
 
-[versão 3.0]() **Em andamento** 
+Para implementação de API da [versão 3.0]() **Em andamento**, está sendo utilizado o Figma para elaboração de telas como base ao Frontend. [Acesse aqui!](https://www.figma.com/file/elOMqzYfEtznfTvrO774mg/Park-Olinda-Estacionamento?type=design&node-id=0%3A1&mode=design&t=zQLnpJSIFGiXoWFM-1)  
+  
+## 🛠️ Tecnologias Utilizadas
 
-## Requisitos do Projeto
-
-#### Projeto - Sistema de Estacionamento
-
+| Linguagens de Programação | Ferramentas e Tecnologias |
+| :-----------------: | :-----------------------: |
+| <img height="40" src="https://github.com/rhayssakramer/rhayssakramer/blob/main/assets/icon/C%23.svg"> <img height="40" src="https://github.com/rhayssakramer/rhayssakramer/blob/main/assets/icon/dotnet.svg"> <img height="40" src="https://github.com/rhayssakramer/rhayssakramer/blob/main/assets/icon/NodeJS-Dark.svg"> | <img height="40" src="https://github.com/rhayssakramer/rhayssakramer/blob/main/assets/icon/VSCode-Dark.svg"><img height="40" src="https://github.com/rhayssakramer/rhayssakramer/blob/main/assets/icon/Figma-Dark.svg"> | 
+  
+## 🗒️ Requisitos do Projeto
+> Projeto - Sistema de Estacionamento
 - Desafio de projeto: Para este desafio, foi preciso utilizar os conhecimentos adquiridos no módulo de fundamentos, da trilha .NET da DIO.
-
 - Contexto: Na proposta desafio o desenvoledor foi contratado para construir um sistema para um estacionamento, que será usado para gerenciar os veículos estacionados e realizar suas operações, como por exemplo adicionar um veículo, remover um veículo (e exibir o valor cobrado durante o período) e listar os veículos.
-
 - Proposta: Foi preciso construir uma classe chamada "Estacionamento", conforme o diagrama abaixo:
-
-<img width="200" src="https://github.com/rhayssakramer/trilha-dotnet-desafio-fundamentos/blob/main/diagrama_classe_estacionamento.png">
+<img align="right" width="200" src="https://github.com/rhayssakramer/trilha-dotnet-desafio-fundamentos/blob/main/diagrama_classe_estacionamento.png">
 
 #### A classe contém três variáveis, sendo:
 
@@ -83,7 +75,7 @@ O código foi fornecido pela metade, e a função do desenvolvedor era dar conti
 - Utilizar decimais e conversores nos itens.
 - Utilizar estruturas como: `if / else`, `for`, `foreach` e `switch`
 
-### Instruções de Uso
+### ▶️ Instruções de Uso
 
 1. Clone ou baixe este repositório para a sua máquina local.
 
@@ -96,23 +88,20 @@ O código foi fornecido pela metade, e a função do desenvolvedor era dar conti
 dotnet run
 ```
 
-### Créditos
+### 🔗 Créditos
 Este projeto foi desenvolvido como parte de avaliação de desafio do Decola Tech Avanade 4ª Edição 2024, para avaliar o ensinado na bootcamp de fundamentos da linguagem de programação `C#`.
 
 *Nota: Este projeto é apenas para fins educacionais e não possui nenhuma afiliação oficial com a franquia DIO ou Avanade ou suas empresas associadas.*
 
-## Autora:
-<table>
+## 👩🏼‍💻 Autoria:
+<table style="border: 0;">
   <tr>
-    <td>
-      <img width="80px" align="center" src="https://github.com/rhayssakramer/rhayssakramer/blob/main/assets/images/logo.png"/>
-    </td>
     <td align="left">
       <a href="https://github.com/rhayssakramer">
         <span><b>Rhayssa Kramer</b></span>
       </a>
       <br>
-      <span>Desenvolvedora Full Stack</span>
+      <span>Assoc, Full-Stack Development</span>
     </td>
   </tr>
 </table>
