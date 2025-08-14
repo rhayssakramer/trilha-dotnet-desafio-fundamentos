@@ -128,7 +128,7 @@ RemoverVeiculo: Método responsável por verificar se um determinado veículo es
 ListarVeiculos: Lista todos os veículos presentes atualmente no estacionamento. Caso não haja nenhum, exibir a mensagem "Não há veículos estacionados".
 ```
 
-** ⚙️ Especificações Técnicas**
+**⚙️ Especificações Técnicas**
 - Entrada de dados via console.
 - Exibir mensagens apropriadas a cada situação (você tem que interagir com o usuário).
 - O usuário tem a opção de não escolher nada e encerrrar o sistema.
