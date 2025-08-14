@@ -30,20 +30,21 @@ Código em terminal com melhorias e novos incrementos foi inserido duas novas cl
 ```
 [versão 3.0]() **Em andamento**
 
-## Índice
+## 📑 Índice
 - [Introdução]()
 - [Tecnologias Utilizadas]()
 - [Desafio de Projeto]()
 - [Objetivos]()
-  - [x] Pré-requisitos
-  - [x] Estrutura do Projeto
-  - [x] Regras e Validações
-  - [x] Especificações de Conteúdo
-  - [x] Especificações Técnicas
+  - [x] [Pré-requisitos]()
+  - [x] [Passo a Passo]()
+  - [x] [Estrutura do Projeto]()
+  - [x] [Regras e Validações]()
+  - [x] [Especificações de Conteúdo]()
+  - [x] [Especificações Técnicas])
 - [Planejamento do Projeto]()
-- [Passo a Passo]()
 - [Modelo do Diagrama]()
 - [Execução do Projeto]()
+- [Recursos Adicionais]()
 - [Créditos]()
 - [Autora]()
 
@@ -74,12 +75,18 @@ Por último, deverá ser feito um menu interativo com as seguintes ações imple
 3. Listar veículos
 4. Encerrar
 
-**📌 Pré-requisitos**
+#### 📌 Pré-requisitos
 1. Ter o [.NET 6.0](https://dotnet.microsoft.com/pt-br/download/dotnet/6.0) instalado.
 2. Ter o [Node.js](https://www.nodejs.tech/pt-br/download) instalado.
 3. Editor de código [Visual Studio](https://visualstudio.microsoft.com/pt-br/) ou [VS Code](https://code.visualstudio.com/).
 
-**📂 Estrutura do Projeto**
+#### 🚀 Passo a Passo
+1. Criar classe Estacionamento com atributos e métodos.
+2. Criar menu interativo no console.
+3. Implementar lógica de cálculo e listagem.
+4. Testar interações no terminal.
+
+#### 📂 Estrutura do Projeto
 ```
 Estacionamento/
 │
@@ -96,7 +103,7 @@ Estacionamento/
 └── 📄 README.md
 ```
 
-**📜 Regras e Validações**
+#### 📜 Regras e Validações
 1. Indique um nome para seu negócio.
 2. Sua composição de estacionamento (cadastrar, remover, listar e encerrar).
 3. Armazenar veículos cadastrados em uma lista.
@@ -106,7 +113,7 @@ Estacionamento/
 7. A saída deve exibir a placa do veículo removido e o valor a ser pago.
 8. Encerrar o sistema quando desejado.
 
-**📂 Especificações de Conteúdo**
+#### 📂 Especificações de Conteúdo
 - Classe: `Estacionamento`
 - Propriedades:
   - `precoInicial` (decimal)
@@ -128,19 +135,13 @@ RemoverVeiculo: Método responsável por verificar se um determinado veículo es
 ListarVeiculos: Lista todos os veículos presentes atualmente no estacionamento. Caso não haja nenhum, exibir a mensagem "Não há veículos estacionados".
 ```
 
-**⚙️ Especificações Técnicas**
+#### ⚙️ Especificações Técnicas
 - Entrada de dados via console.
 - Exibir mensagens apropriadas a cada situação (você tem que interagir com o usuário).
 - O usuário tem a opção de não escolher nada e encerrrar o sistema.
 - Utilizar decimais e conversores nos itens.
 - Uso de `if / else`, `for`, `foreach` e `switch`.
 - Cálculo do valor total = `precoInicial + (precoPorHora * horas)`.
-
-### 🚀 Passo a Passo
-1. Criar classe Estacionamento com atributos e métodos.
-2. Criar menu interativo no console.
-3. Implementar lógica de cálculo e listagem.
-4. Testar interações no terminal.
 
 ### 📊 Modelo do Diagrama
 A função do desenvolvedor é dar continuidade obedecendo as regras descritas acima, para que no final, se tenha um programa funcional, conforme o diagrama abaixo:
@@ -154,12 +155,17 @@ A função do desenvolvedor é dar continuidade obedecendo as regras descritas a
 dotnet run
 ```
 
-### 🔗 Créditos
-Este projeto foi desenvolvido como parte de avaliação de Desafio de Projeto do Decola Tech Avanade 2024, para avaliar o ensinado na bootcamp dos conhecimentos adquiridos no módulo de fundamentos da linguagem de programação `C#`.
+## 🗒️ Recursos Adicionais
+- [Documentação de C#](https://learn.microsoft.com/pt-br/dotnet/csharp/)
+- [Documentação de .NET](https://learn.microsoft.com/pt-br/dotnet/)
+- [C# - Linguagem de Programação](https://dotnet.microsoft.com/pt-br/languages/csharp)
+
+## 🔗 Créditos
+Este projeto foi desenvolvido como parte de avaliação de desafio de projeto da [Bootcamp Decola Tech 2024](https://web.dio.me/track/decola-tech-avanade-net-developer), para avaliar o ensinado na bootcamp dos conhecimentos adquiridos no módulo de fundamentos da linguagem de programação `C#`.
 
 *Nota: Este projeto é apenas para fins educacionais e não possui nenhuma afiliação oficial com a franquia DIO ou Avanade ou suas empresas associadas.*
 
-### 👩🏼‍💻 Autora:
+## 👩🏼‍💻 Autora:
 <table style="border=0">
   <tr>
     <td align="left">
