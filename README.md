@@ -1,6 +1,6 @@
-# DIO - Trilha .NET - Desafio Fundamentos
+# 🚗 Sistema de Estacionamento em .NET - Fundamentos
 
-Esse foi o meu `Primeiro Projeto na Linguagem de Programação C#`e também o primeito desafio da trilha `.NET` do Decola Tech Avanade 4ª Edição 2024. 
+Este repositório corresponde ao Desafio #01 da [Bootcamp Decola Tech 2024](https://web.dio.me/track/decola-tech-avanade-net-developer) para criar um sistema de console em `.NET` e `C#` para gerenciar veículos estacionados, aplicando conceitos básicos de programação, como classes, listas, métodos e interação com o usuário.
 
 ## Versões
 - [versão 1.0](https://github.com/rhayssakramer/trilha-dotnet-desafio-fundamentos.git) código em terminal original do desafio de Fundamentos com `C#` e `.NET` da DIO e Decola Tech 2024, implementado pelo professor Leonardo Buta da DIO, com lacunas para serem preenchidas pelos alunos.  
@@ -15,12 +15,6 @@ Para implementação de melhorias da [versão 2.0](https://github.com/rhayssakra
 Para implementação de API da [versão 3.0]() **Em andamento**, está sendo utilizado o Figma para elaboração de telas como base ao Frontend.  
 [Acesse aqui!](https://www.figma.com/file/elOMqzYfEtznfTvrO774mg/Park-Olinda-Estacionamento?type=design&node-id=0%3A1&mode=design&t=zQLnpJSIFGiXoWFM-1)
 
-## Tecnologias Utilizadas
-
-| Linguagens de Programação | Ferramentas e Tecnologias |
-| :-----------------: | :-----------------------: |
-| <img height="40" src="https://github.com/rhayssakramer/rhayssakramer/blob/main/assets/icon/C%23.svg"> <img height="40" src="https://github.com/rhayssakramer/rhayssakramer/blob/main/assets/icon/dotnet.svg"> <img height="40" src="https://github.com/rhayssakramer/rhayssakramer/blob/main/assets/icon/NodeJS-Dark.svg"> | <img height="40" src="https://github.com/rhayssakramer/rhayssakramer/blob/main/assets/icon/VSCode-Dark.svg">
-
 ## Atualizações
 [versão 1.0](https://github.com/rhayssakramer/trilha-dotnet-desafio-fundamentos.git) 
 ```
@@ -34,88 +28,148 @@ Código em terminal implementado, foi utilizado uma lista para incluir as placas
 ```
 Código em terminal com melhorias e novos incrementos foi inserido duas novas classes que serão os objetos do programa, Cliente e Veiculo com suas propriedades e valores. Na classe Estacionamento fora implementado novos menus e métodos para maior interação com usuário, gerador de código aleatório, buscas de placas e diferentes listas.
 ```
+[versão 3.0]() **Em andamento**
 
-[versão 3.0]() **Em andamento** 
+## Índice
+- [Introdução]()
+- [Tecnologias Utilizadas]()
+- [Desafio de Projeto]()
+- [Objetivos]()
+  - [x] Pré-requisitos
+  - [x] Estrutura do Projeto
+  - [x] Regras e Validações
+  - [x] Especificações de Conteúdo
+  - [x] Especificações Técnicas
+- [Planejamento do Projeto]()
+- [Passo a Passo]()
+- [Modelo do Diagrama]()
+- [Execução do Projeto]()
+- [Créditos]()
+- [Autora]()
 
-## Requisitos do Projeto
+### ▶️ Introdução
+O sistema de estacionamento foi desenvolvido em `C#` e `.NET` como primeiro desafio da trilha de Fundamentos. Ele permite cadastrar, remover e listar veículos estacionados, além de calcular o valor devido com base no tempo de permanência. Na proposta desafio o desenvoledor foi contratado para construir um Sistema para um Estacionamento, que será usado para gerenciar os veículos estacionados e realizar suas operações, como por exemplo adicionar um veículo, remover um veículo (e exibir o valor cobrado durante o período) e listar os veículos.
 
-#### Projeto - Sistema de Estacionamento
+### 💻 Tecnologias Utilizadas
 
-- Desafio de projeto: Para este desafio, foi preciso utilizar os conhecimentos adquiridos no módulo de fundamentos, da trilha .NET da DIO.
+| Linguagens de Programação | Ferramentas e Tecnologias |
+| :-----------------: | :-----------------------: |
+| <img height="40" src="https://skillicons.dev/icons?i=cs"> <img height="40" src="https://skillicons.dev/icons?i=dotnet"> <img height="40" src="https://skillicons.dev/icons?i=nodejs"> | <img height="40" src="https://skillicons.dev/icons?i=vscode">
 
-- Contexto: Na proposta desafio o desenvoledor foi contratado para construir um sistema para um estacionamento, que será usado para gerenciar os veículos estacionados e realizar suas operações, como por exemplo adicionar um veículo, remover um veículo (e exibir o valor cobrado durante o período) e listar os veículos.
+### 🎯 Desafio de Projeto
+- Criar uma classe Estacionamento com atributos e métodos para gerenciar veículos.
+- Implementar menu interativo no console.
+- Calcular o valor de estadia com base em preço inicial e valor por hora.
 
-- Proposta: Foi preciso construir uma classe chamada "Estacionamento", conforme o diagrama abaixo:
+### 🛠️ Objetivos
+O objetivo foi aplicar fundamentos básicos de programação:
+- Classes e objetos
+- Listas (List<T>)
+- Métodos
+- Estruturas condicionais e de repetição
 
-<img width="200" src="https://github.com/rhayssakramer/trilha-dotnet-desafio-fundamentos/blob/main/diagrama_classe_estacionamento.png">
-
-#### A classe contém três variáveis, sendo:
-
-- precoInicial: Tipo decimal. É o preço cobrado para deixar seu veículo estacionado.
-- precoPorHora: Tipo decimal. É o preço por hora que o veículo permanecer estacionado.
-- veiculos: É uma lista de string, representando uma coleção de veículos estacionados. Contém apenas a placa do veículo.
-
-#### A classe contém três métodos, sendo:
-
-- AdicionarVeiculo: Método responsável por receber uma placa digitada pelo usuário e guardar na variável veiculos.
-- RemoverVeiculo: Método responsável por verificar se um determinado veículo está estacionado, e caso positivo, irá pedir a quantidade de horas que ele permaneceu no estacionamento. Após isso, realiza o seguinte cálculo: precoInicial * precoPorHora, exibindo para o usuário.
-- ListarVeiculos: Lista todos os veículos presentes atualmente no estacionamento. Caso não haja nenhum, exibir a mensagem "Não há veículos estacionados".
-
-#### Por último, deverá ser feito um menu interativo com as seguintes ações implementadas:
+Por último, deverá ser feito um menu interativo com as seguintes ações implementadas:
 1. Cadastrar veículo
 2. Remover veículo
 3. Listar veículos
 4. Encerrar
 
-#### Solução
-O código foi fornecido pela metade, e a função do desenvolvedor era dar continuidade obedecendo as regras descritas acima, para que no final, se tenha um programa funcional.
+**📌 Pré-requisitos**
+1. Ter o [.NET 6.0](https://dotnet.microsoft.com/pt-br/download/dotnet/6.0) instalado.
+2. Ter o [Node.js](https://www.nodejs.tech/pt-br/download) instalado.
+3. Editor de código [Visual Studio](https://visualstudio.microsoft.com/pt-br/) ou [VS Code](https://code.visualstudio.com/).
 
-#### Especificações de conteúdo:
-- Indique um nome para seu negócio.
-- Sua composição de estacionamento (cadastrar, remover, listar e encerrar).
-- O programa de conter classe e métodos.
-- A saída deve exibir a placa do veículo removido e o valor a ser pago.
+**📂 Estrutura do Projeto**
+```
+Estacionamento/
+│
+├── 📁 Models
+│   ├── Cliente.cs
+│   ├── Veiculo.cs
+│   └── Estacionamento.cs
+│
+├── 📁 Diagrams
+│   └── diagrama_classe_estacionamento.png
+│
+├── 📄 Program.cs
+├── 📄 Estacionamento.csproj
+└── 📄 README.md
+```
 
-#### Especificações técnicas:
-- Todos os dados são capturados pelo console (entrada do usuário).
+**📜 Regras e Validações**
+1. Indique um nome para seu negócio.
+2. Sua composição de estacionamento (cadastrar, remover, listar e encerrar).
+3. Armazenar veículos cadastrados em uma lista.
+4. O programa de conter classe e métodos.
+5. Calcular valor total ao remover um veículo.
+6. Exibir mensagens apropriadas ao usuário.
+7. A saída deve exibir a placa do veículo removido e o valor a ser pago.
+8. Encerrar o sistema quando desejado.
+
+**📂 Especificações de Conteúdo**
+- Classe: `Estacionamento`
+- Propriedades:
+  - `precoInicial` (decimal)
+  - `precoPorHora` (decimal)
+  - `veiculos (lista de strings)`
+- Métodos:
+  - `AdicionarVeiculo()`
+  - `RemoverVeiculo()`
+  - `ListarVeiculos()`
+```
+precoInicial: Tipo decimal. É o preço cobrado para deixar seu veículo estacionado.
+precoPorHora: Tipo decimal. É o preço por hora que o veículo permanecer estacionado.
+veiculos: É uma lista de string, representando uma coleção de veículos estacionados. Contém apenas a placa do veículo.
+
+AdicionarVeiculo: Método responsável por receber uma placa digitada pelo usuário e guardar na variável veiculos.
+
+RemoverVeiculo: Método responsável por verificar se um determinado veículo está estacionado, e caso positivo, irá pedir a quantidade de horas que ele permaneceu no estacionamento. Após isso, realiza o seguinte cálculo: precoInicial * precoPorHora, exibindo para o usuário.
+
+ListarVeiculos: Lista todos os veículos presentes atualmente no estacionamento. Caso não haja nenhum, exibir a mensagem "Não há veículos estacionados".
+```
+
+** ⚙️ Especificações Técnicas**
+- Entrada de dados via console.
 - Exibir mensagens apropriadas a cada situação (você tem que interagir com o usuário).
 - O usuário tem a opção de não escolher nada e encerrrar o sistema.
 - Utilizar decimais e conversores nos itens.
-- Utilizar estruturas como: `if / else`, `for`, `foreach` e `switch`
+- Uso de `if / else`, `for`, `foreach` e `switch`.
+- Cálculo do valor total = `precoInicial + (precoPorHora * horas)`.
 
-### Instruções de Uso
+### 🚀 Passo a Passo
+1. Criar classe Estacionamento com atributos e métodos.
+2. Criar menu interativo no console.
+3. Implementar lógica de cálculo e listagem.
+4. Testar interações no terminal.
 
-1. Clone ou baixe este repositório para a sua máquina local.
+### 📊 Modelo do Diagrama
+A função do desenvolvedor é dar continuidade obedecendo as regras descritas acima, para que no final, se tenha um programa funcional, conforme o diagrama abaixo:
+<img width="400" src="./images/diagrama_classe_estacionamento.png">
 
-2. Certifique-se de ter o [Node.js](https://nodejs.org/en/download/current) e [.NET 8.0](https://dotnet.microsoft.com/pt-br/download) instalado em sua máquina.
-
-3. Abra o terminal e navegue até o diretório raiz do projeto.
-
-4. Para executar, utilize o comando:
+### ⏩ Execução do Projeto
+1. Clone este repositório.
+2. No terminal, navegue até o diretório do projeto.
+3. Execute:
 ```
 dotnet run
 ```
 
-### Créditos
-Este projeto foi desenvolvido como parte de avaliação de desafio do Decola Tech Avanade 4ª Edição 2024, para avaliar o ensinado na bootcamp de fundamentos da linguagem de programação `C#`.
+### 🔗 Créditos
+Este projeto foi desenvolvido como parte de avaliação de Desafio de Projeto do Decola Tech Avanade 2024, para avaliar o ensinado na bootcamp dos conhecimentos adquiridos no módulo de fundamentos da linguagem de programação `C#`.
 
 *Nota: Este projeto é apenas para fins educacionais e não possui nenhuma afiliação oficial com a franquia DIO ou Avanade ou suas empresas associadas.*
 
-## Autora:
-<table>
+### 👩🏼‍💻 Autora:
+<table style="border=0">
   <tr>
-    <td>
-      <img width="80px" align="center" src="https://github.com/rhayssakramer/rhayssakramer/blob/main/assets/images/logo.png"/>
-    </td>
     <td align="left">
       <a href="https://github.com/rhayssakramer">
         <span><b>Rhayssa Kramer</b></span>
       </a>
       <br>
-      <span>Desenvolvedora Full Stack</span>
+      <span>Assoc, Full-Stack Development</span>
     </td>
   </tr>
 </table>
 
-##
-<div align="center">Feito por <a href="https://github.com/rhayssakramer">@devrhakramer</a>.</div>
+<div align="center"><a href="https://github.com/rhayssakramer"><img src="https://github.com/rhayssakramer/rhayssakramer/blob/main/img/rodape.png"></a></div>
