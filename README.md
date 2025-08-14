@@ -40,7 +40,7 @@ Código em terminal com melhorias e novos incrementos foi inserido duas novas cl
   - [x] [Estrutura do Projeto]()
   - [x] [Regras e Validações]()
   - [x] [Especificações de Conteúdo]()
-  - [x] [Especificações Técnicas])
+  - [x] [Especificações Técnicas]()
 - [Planejamento do Projeto]()
 - [Modelo do Diagrama]()
 - [Execução do Projeto]()
