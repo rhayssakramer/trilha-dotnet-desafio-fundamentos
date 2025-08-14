@@ -145,7 +145,7 @@ ListarVeiculos: Lista todos os veículos presentes atualmente no estacionamento.
 
 ### 📊 Modelo do Diagrama
 A função do desenvolvedor é dar continuidade obedecendo as regras descritas acima, para que no final, se tenha um programa funcional, conforme o diagrama abaixo:  
-<img width="400" src="./images/diagrama_classe_estacionamento.png">
+<img width="400" src="https://github.com/rhayssakramer/trilha-dotnet-desafio-fundamentos/blob/v.1.0/diagrama_classe_estacionamento.png">
 
 ### ⏩ Execução do Projeto
 1. Clone este repositório.
