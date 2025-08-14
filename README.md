@@ -144,7 +144,7 @@ ListarVeiculos: Lista todos os veículos presentes atualmente no estacionamento.
 - Cálculo do valor total = `precoInicial + (precoPorHora * horas)`.
 
 ### 📊 Modelo do Diagrama
-A função do desenvolvedor é dar continuidade obedecendo as regras descritas acima, para que no final, se tenha um programa funcional, conforme o diagrama abaixo:
+A função do desenvolvedor é dar continuidade obedecendo as regras descritas acima, para que no final, se tenha um programa funcional, conforme o diagrama abaixo:  
 <img width="400" src="./images/diagrama_classe_estacionamento.png">
 
 ### ⏩ Execução do Projeto
